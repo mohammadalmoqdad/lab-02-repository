@@ -1,3 +1,12 @@
+
+
+header{
+    background-color: #373840;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-family: monospace;
+}
 img{
     width: 230px;
 }
@@ -11,6 +20,11 @@ h2{
     border-radius: 1rem;
     
 
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 section{
     width: 350px;
@@ -36,8 +50,58 @@ bottom: 1px;
     width: 400px;
     display: block;
     margin: auto;
-   border: 2px grey solid;
+   /* border: 2px grey solid; */
    border-radius: 1rem;
    font-family: monospace;
    font-size: large;
+   background-color: #B1967F;
+   color: white;
+}
+.options-section option{
+    border: 2px grey solid;
+    border-radius: 1rem;
+    font-family: monospace;
+    font-size: large;
+    background-color: #B1967F;
+color: white;
+/* text-align: center; */
+
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.buttons button{
+margin: 15px 15px;
+background-color: rgba(66, 118, 160, 0.925);
+width: 150px;
+color: white;
+border: white;
+padding: 10px;
+border-radius: 2rem;
+font-size: large;
+outline: none;
+font-family:sans-serif;
+}
+.buttons a{
+    text-decoration: none;
+    color: white;
+}
+.buttons button:hover{
+ background-color: #B1967F;
+ 
+
+}
+footer{
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+color: white;
+background-color: #373840;
+font-size: x-large;
+font-family: monospace;
+
 }
